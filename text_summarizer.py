@@ -18,5 +18,5 @@ This library is widely used in academic and industrial research projects.
 summary = summarizer(text, max_length=50, min_length=10, do_sample=False)
 
 # Print the summary
-print("Abstractive Summary:")
+print("Summary:")
 print(summary[0]['summary_text'])
