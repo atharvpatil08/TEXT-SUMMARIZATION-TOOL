@@ -12,5 +12,5 @@
 
 **MENTOR NAME**: NEELA SANTOSH KUMAR
 
-#TASK DESCRIPTION:
+# TASK DESCRIPTION:
 The code uses the Hugging Face Transformers library to summarize text. It employs the sshleifer/distilbart-cnn-12-6 model through a summarization pipeline. The input text is about NLTK, and the model generates a concise summary by extracting key points while rephrasing them. Parameters like maximum and minimum length ensure the summary is appropriately sized. This is useful for creating quick and meaningful summaries of long texts.
