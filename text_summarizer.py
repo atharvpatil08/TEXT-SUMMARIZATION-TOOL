@@ -1,10 +1,7 @@
 from transformers import pipeline
 
-
-
-# Initialize the summarization pipeline
+# Initialize summarization pipeline
 summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6", revision="a4f8f3e")
-
 
 # Example text
 text = """
@@ -14,7 +11,7 @@ NLTK includes tools for text processing, such as tokenization, tagging, and pars
 This library is widely used in academic and industrial research projects.
 """
 
-# Generate abstractive summary
+# Generate summary
 summary = summarizer(text, max_length=50, min_length=10, do_sample=False)
 
 # Print the summary
